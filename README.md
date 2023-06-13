@@ -1,7 +1,7 @@
 # Deploy-Docker-App-to-AWS-ECS
 - Docker run on local system, commands:
 docker run -p 6535(any host):5000(any port) 0123456789 (image ID)
-- Push Commands
+- Docker Push Commands for cloud AWS ECR
 Make sure that you have the latest version of the AWS CLI and Docker installed. For more information, see Getting Started with Amazon ECR .
 Use the following steps to authenticate and push an image to your repository. For additional registry authentication methods, including the Amazon ECR credential helper, see Registry Authentication .
 Retrieve an authentication token and authenticate your Docker client to your registry.
